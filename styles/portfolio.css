@@ -68,7 +68,7 @@ body {
   padding: 120px 60px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 767px) {
   .project-description {
     padding: 0;
     text-align: center;
