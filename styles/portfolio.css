@@ -40,6 +40,7 @@ h2 {
 }
 
 body {
+  color: whitesmoke;
   background-color: var(--secondary-color);
   text-align: left;
   font-family: var(--default-font-family);
@@ -61,4 +62,18 @@ body {
   font-size: 15px;
   line-height: 27px;
   padding: 4px 18px;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .navigation-links {
+    display: block;
+  }
 }
